@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Day 3 assignment</title>
+        <style>
+
+            *{
+                margin: 10px;
+                padding: 10px;
+            }
+
+            .container{
+                padding: 50px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            
+
+            }
+
+            button {
+                padding-top: 12px;
+                padding-bottom: 12px;
+                width: 30%;
+                margin-top: 20px;
+                border-style: solid;
+                border-color: black;
+                margin-bottom: 20px;
+                font-size: 20px;
+                text-transform: uppercase;
+                background-color: chocolate;
+            }
+
+            input{
+                width: 50%;
+                height: 50px;
+                text-indent: 20px;
+                font-size: 20px;
+                border-radius: 10px;
+                outline: none;
+                border: 1px solid red;
+            }
+           
+            .two{
+                padding-top: 50px;
+                padding-bottom: 50px;
+                width: 400px;
+                
+            }
+
+            .todo{
+                padding-top: 10px;
+                padding-bottom: 10px;
+                text-indent: 15px;
+                margin: 10px;
+                font-size: 25px;
+                font-weight: bold;
+                font-family: segoe UI;
+                box-shadow: 0 0 50px rgb(12, 7, 17);
+                border-style: solid;
+                border-color: black;
+                background-color: saddlebrown;
+                border-radius: 20px;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <h1> <center>DAY 3 ASSIGNMENT</center>  </h1>
+        <h2><center>VELLUS CAFE</center> </h2>
+      
+        <br> 
+
+        <div class="container">
+
+             TYPE YOUR ORDER BELOW
+            <input type="text" placeholder="Enter the item" id="inp" />
+
+            <button onclick="addTask()">Add To item</button>
+            <button onclick="changeColor()">Change Color</button>
+
+            <div id="two" class="two">
+
+            </div>
+
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
